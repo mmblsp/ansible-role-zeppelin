@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  roles:
+    - role: zeppelin
+      vars:
+        zeppelin_listen_all: true
